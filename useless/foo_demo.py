@@ -1,0 +1,5 @@
+t = (3, 6, 1, 22, 33, 12, 4441, 2, 1, -1)
+s = sorted(t)
+print(s[0])
+all = sum(t)
+print(all)
