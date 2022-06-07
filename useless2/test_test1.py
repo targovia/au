@@ -13,6 +13,6 @@ def test_te3():
 def test_te4():
     print("Content of test4")
 
-@pytest.mark.parametrize("a, b, c", [(2, 2, 4), (5, 5, 11), (5, 5, 10)])
+@pytest.mark.parametrize("a, b, c", [(2, 2, 4), (5, 9, 14), (5, 5, 10)])
 def test_te5(a, b, c):
     assert a + b == c
